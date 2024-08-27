@@ -1,6 +1,7 @@
 /*************************************************/
 /* Copyright 2008-2010 SAS Institute Inc.        */
 /* Top N report for data across categories       */
+/* your branch comment */
 /* Use macro variables to customize the data     */
 /* source.                                       */
 /* DATA - SAS library.member for input data      */
@@ -19,8 +20,8 @@
 %let measureformat=%str(format=BEST6.);
 %let stat=MEAN;
 %let n=10;
-%let category=Origin;
-title "Top Models by MPG_City for each region of Origin";
+%let category=Product_Class;
+title "Top Models by MPG_City for each region of Product__Class";
 footnote;
 
 /* summarize the data across a category and store */
