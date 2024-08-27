@@ -11,6 +11,7 @@
 /* STAT - SUM or MEAN                            */
 /* N - The "N" in Top N - how many to show       */ 
 /* CATEGORY - across which category?             */ 
+/* Additional comment                            */
 /*************************************************/
 %let data=SASHELP.CARS;
 %let report=Model;

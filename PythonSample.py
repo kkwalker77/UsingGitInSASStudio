@@ -10,6 +10,10 @@ output_table = 'WORK.PYTHONOUT'
 # set input data to pipe from SAS
 dfin = SAS.sd2df(input_table)
 
+# new section 1
+
+# new section 2
+
 # output to the log details about the table
 print("input data shape is:", dfin.shape)
 
