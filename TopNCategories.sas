@@ -7,12 +7,12 @@
 /* DATA - SAS library.member for input data      */
 /* REPORT - column to report on                  */
 /* MEASURE - column to measure for the report    */
+/* New Comment */
 /* MEASUREFORMAT - specify to preserve measure   */
 /*  format in the report (currency, for example) */
 /* STAT - SUM or MEAN                            */
 /* N - The "N" in Top N - how many to show       */ 
 /* CATEGORY - across which category?             */ 
-/* Additional comment                            */
 /*************************************************/
 %let data=SASHELP.CARS;
 %let report=Model;
@@ -20,8 +20,8 @@
 %let measureformat=%str(format=BEST6.);
 %let stat=MEAN;
 %let n=10;
-%let category=Product_Class;
-title "Top Models by MPG_City for each region of Product__Class";
+%let category=Type;
+title "Top Models by MPG_City for each region of Type";
 footnote;
 
 /* summarize the data across a category and store */
