@@ -1,13 +1,11 @@
 /*************************************************/
 /* Copyright 2008-2010 SAS Institute Inc.        */
 /* Top N report for data across categories       */
-/* your branch comment */
 /* Use macro variables to customize the data     */
 /* source.                                       */
 /* DATA - SAS library.member for input data      */
 /* REPORT - column to report on                  */
 /* MEASURE - column to measure for the report    */
-/* New Comment */
 /* MEASUREFORMAT - specify to preserve measure   */
 /*  format in the report (currency, for example) */
 /* STAT - SUM or MEAN                            */
